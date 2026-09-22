@@ -1,0 +1,46 @@
+{
+  "name": "pi-execution-progress",
+  "version": "0.1.0",
+  "description": "A reusable Pi execution progress overlay and milestone tracker",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/15811079534/pi-execution-progress.git"
+  },
+  "homepage": "https://github.com/15811079534/pi-execution-progress",
+  "bugs": {
+    "url": "https://github.com/15811079534/pi-execution-progress/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi",
+    "extension",
+    "tui",
+    "execution-progress"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/execution-progress.ts"
+    ]
+  },
+  "files": [
+    "extensions",
+    "test",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ]
+}
