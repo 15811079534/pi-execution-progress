@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/15811079534/pi-execution-progress.git"
+    "url": "git+https://github.com/15811079534/pi-execution-progress.git"
   },
   "homepage": "https://github.com/15811079534/pi-execution-progress",
   "bugs": {
