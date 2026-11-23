@@ -102,3 +102,9 @@ npm test
 ```
 
 当前测试覆盖 Overlay 布局、快捷键、状态恢复和生命周期契约。真实终端视觉检查仍需在目标终端中执行。
+
+## 架构导航
+
+[扩展架构、事件和会话状态](docs/architecture.md) · [可编辑 draw.io 源图](docs/diagrams/pi-progress-architecture.drawio)
+
+![Pi 执行进度扩展逻辑分层](docs/diagrams/pi-progress-logical.png)
